@@ -1,2 +1,2 @@
-# interfaces
-Minimal interfaces needed for integrations
+# Interfaces
+Minimal Connext contract interfaces needed for integrations.
