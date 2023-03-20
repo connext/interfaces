@@ -96,4 +96,9 @@ interface IConnext {
   ) external;
 
   function removeRouterLiquidity(TokenId memory _canonical, uint256 _amount, address payable _to) external;
+
+  // ============ TOKEN_FACET ==============
+  function adoptedToCanonical(address _adopted) external view returns (TokenId memory);
+
+  function approvedAssets(TokenId calldata _canonical) external view returns (bool);
 }
